@@ -35,7 +35,7 @@ module.exports = {
     new IgnoreEmitPlugin(["main.js", "agosh-account.js", "web-components.js"]),
 
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: "tokens/[name].css",
     }),
   ],
 };
