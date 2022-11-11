@@ -1,0 +1,126 @@
+:host,
+:root {
+  --fab-icon-size-normal: 1.5rem;
+  --fab-icon-size-large: 2.25rem;
+  --fab-border-radius-default: 1rem;
+  --fab-border-radius-large: 1.75rem;
+  --fab-height-default: 3.5rem;
+  --fab-height-large: 6rem;
+  --fab-width-default: 3.5rem;
+  --fab-width-large: 6rem;
+  --card-border-radius: 0.75rem;
+}
+
+:root,
+:host,
+.agosh-theme-light {
+  --elevated-default-bg: #f8f2f8;
+  --elevated-hover-bg: #e8e0ef;
+  --elevated-focus-bg: #e7dfee;
+  --elevated-active-bg: #e7dfee;
+  --disabled-bg: #1f1f1f;
+  --disabled-border: #1f1f1f;
+  --tonal-hover-bg: #1d192b;
+  --text-button-bg: #6750a4;
+  --elevation1: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --elevation2: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --elevation-filter: none;
+  --transparent: transparent;
+  --fab-disabled-icons: #1d1b1e55;
+  --fab-disabled-text: #1f1f1f61;
+  --fab-disabled-bg: #1f1f1f1f;
+  --fab-surface-active-bg: rgba(103, 80, 164, 0.12);
+  --fab-primary-active-bg: rgba(33, 0, 93, 0.12);
+  --fab-secondary-active-bg: rgba(29, 25, 43, 0.12);
+  --fab-tertiary-active-bg: rgba(49, 17, 29, 0.12);
+  --solid-bg: #ffffff;
+  --on-solid-bg: #000000;
+  --messaging-avatar-bg: #f4f0fa;
+  --messaging-dot-bg: #6dc852;
+  --messaging-date-label-bg: #1f1f1f1f;
+  --messaging-date-label-text: #1d1b1e55;
+  --link-color: #562f95;
+  --link-button-color: #756f80;
+  --link-button-hover-color: #007ad9;
+  --status-success: #2eb67d;
+  --status-error: #dd1e5a;
+  --status-info: #0049cfd9;
+  --status-warning: #ffb428;
+  --star-rating: #ffb428;
+  --chip-background: #fffbfc;
+  --chip-border-color: #7a757e;
+  --chip-plain-hover-background: rgba(28, 27, 31, 0.08);
+  --chip-plain-focus-background: rgba(28, 27, 31, 0.12);
+  --chip-outlined-hover-background: rgba(73, 69, 79, 0.08);
+  --chip-outlined-focus-background: rgba(73, 69, 79, 0.12);
+  --chip-tonal-background: #eadef7;
+  --chip-tonal-hover-background: #d8cfe8;
+  --chip-tonal-focus-background: #d1c6de;
+  --chip-dragged-background: #c9bed6;
+  --chip-text-color: #49454e;
+  --chip-elevated-disabled: #e4e4e4;
+  --chip-disabled-color: #a9a8a9;
+  --chip-outlined-pressed-background: #e4dfe1;
+  --chip-toned-pressed-background: #d1c6de;
+  --chip-plain-pressed-background: #e4dfe1;
+  --alert-bg: rgba(255, 255, 255, 0.95);
+  --disabled-input-bg: #e7e1e6ff;
+  --disabled-input-color: rgb(29, 27, 30, 38%);
+}
+
+.agosh-theme-dark {
+  --elevated-default-bg: #262329;
+  --elevated-hover-bg: #393441;
+  --elevated-focus-bg: #3a3543;
+  --elevated-active-bg: #3a3543;
+  --disabled-bg: #e3e3e3;
+  --disabled-border: #e3e3e3;
+  --tonal-hover-bg: #e8def8;
+  --text-button-bg: #d0bcff;
+  --elevation1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --elevation2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --elevation-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+  --transparent: transparent;
+  --fab-disabled-icons: #e7e1e661;
+  --fab-disabled-text: #e7e1e661;
+  --fab-disabled-bg: #e3e3e31f;
+  --fab-surface-active-bg: rgba(39, 33, 53, 0.12);
+  --fab-primary-active-bg: rgba(234, 221, 255, 0.12);
+  --fab-secondary-active-bg: rgba(232, 222, 248, 0.12);
+  --fab-tertiary-active-bg: rgba(255, 216, 228, 0.12);
+  --solid-bg: #000000;
+  --on-solid-bg: #ffffff;
+  --messaging-avatar-bg: #f4f0fa;
+  --messaging-dot-bg: #6dc852;
+  --messaging-date-label-bg: #e3e3e31f;
+  --messaging-date-label-text: #e7e1e661;
+  --link-color: #d6baffff;
+  --link-button-color: #756f80;
+  --link-button-hover-color: #007ad9;
+  --status-success: #2eb67d;
+  --status-error: #dd1e5a;
+  --status-info: #0049cfd9;
+  --status-warning: #ffb428;
+  --star-rating: #ffb428;
+  --chip-background: #1d1b1e;
+  --chip-border-color: #958f99;
+  --chip-plain-hover-background: rgba(230, 225, 229, 0.08);
+  --chip-plain-focus-background: rgba(230, 225, 229, 0.12);
+  --chip-outlined-hover-background: rgba(202, 196, 208, 0.08);
+  --chip-outlined-focus-background: rgba(202, 196, 208, 0.12);
+  --chip-tonal-background: #4b4358;
+  --chip-tonal-hover-background: #585065;
+  --chip-tonal-focus-background: #5e566b;
+  --chip-dragged-background: #645c72;
+  --chip-text-color: #eadef7;
+  --chip-elevated-disabled: #1b1b1b;
+  --chip-disabled-color: ##383838;
+  --chip-outlined-pressed-background: #353335;
+  --chip-toned-pressed-background: #5e566b;
+  --chip-plain-pressed-background: #353335;
+  --alert-bg: rgba(38, 35, 41, 0.95);
+  --disabled-input-bg: rgba(231, 225, 230, 38%);
+  --disabled-input-color: rgb(231, 225, 230, 38%)
+}
