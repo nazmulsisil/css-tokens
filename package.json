@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack"
+    "build": "npm run prebuild && webpack",
+    "prebuild": "npm run build-tokens && npm run build-css",
+    "build-tokens": "node src/tokens/transform-tokens.js",
+    "build-css": "node src/tokens/transform-css.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,13 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "ignore-emit-webpack-plugin": "^2.0.6",
     "mini-css-extract-plugin": "^2.6.1",
+    "style-dictionary": "^3.7.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "tabWidth": 2,
+    "semi": false
   }
 }

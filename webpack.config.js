@@ -1,14 +1,12 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const IgnoreEmitPlugin = require("ignore-emit-webpack-plugin");
+const path = require("path")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
+const IgnoreEmitPlugin = require("ignore-emit-webpack-plugin")
 
 module.exports = {
   mode: "production",
   entry: {
-    main: "./src/tokens/main.css",
-    "agosh-account": "./src/tokens/agosh-account.css",
-    "web-components": "./src/tokens/web-components.css",
+    main: "./src/tokens/temp/main.css",
   },
   module: {
     rules: [
@@ -32,10 +30,10 @@ module.exports = {
   },
   plugins: [
     // Or simply: new IgnoreEmitPlugin(/\**\.js$/)
-    new IgnoreEmitPlugin(["main.js", "agosh-account.js", "web-components.js"]),
+    new IgnoreEmitPlugin(["main.js"]),
 
     new MiniCssExtractPlugin({
       filename: "tokens/[name].css",
     }),
   ],
-};
+}
